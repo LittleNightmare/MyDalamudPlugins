@@ -1,0 +1,21 @@
+[
+    {
+        "Author":  "LittleNighmare",
+        "Name":  "Used Name",
+        "Punchline":  "A simple tool to record players\u0027 used names and nickname",
+        "Description":  "A simple tool to record players\u0027 used names and nickname, only supports FriendList currently. Right click on the target to add/check the used names and nickname.\n",
+        "InternalName":  "UsedName",
+        "RepoUrl":  "https://github.com/LittleNightmare/UsedName",
+        "ApplicableVersion":  "any",
+        "Tags":  [
+                     "social"
+                 ],
+        "IsHide":  "False",
+        "IsTestingExclusive":  "False",
+        "LastUpdated":  1660833876,
+        "DownloadCount":  0,
+        "DownloadLinkInstall":  "https://github.com/LittleNightmare/UsedName/releases/download/0.7.5.1/UsedName.zip",
+        "DownloadLinkTesting":  "https://github.com/LittleNightmare/UsedName/releases/download/0.7.5.1/UsedName.zip",
+        "DownloadLinkUpdate":  "https://github.com/LittleNightmare/UsedName/releases/download/0.7.5.1/UsedName.zip"
+    }
+]
