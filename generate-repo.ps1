@@ -20,8 +20,9 @@ foreach ($plugin in $pluginList) {
   $time = [Int](New-TimeSpan -Start (Get-Date "01/01/1970") -End ([DateTime]$json.published_at)).TotalSeconds
 
   # Get the config data from the repo.
-  $configData = Invoke-WebRequest -Uri "https://raw.githubusercontent.com/$($username)/$($repo)/$($branch)/$($configFolder)/$($repo).json"
-  $config = ConvertFrom-Json $configData.content
+  $url = "https://raw.githubusercontent.com/$($username)/$($repo)/$($branch)/$($configFolder)/$($repo).json"
+  $configData = Invoke-WebRequest -ContentType "application/json; charset=utf-8" $url
+  $config = ConvertFrom-Json $configData.Content
 
   # Ensure that config is converted properly.
   if ($null -eq $config) {
@@ -43,11 +44,8 @@ foreach ($plugin in $pluginList) {
   $pluginsOut += $config
 }
 
-# Convert plugins to JSON
-$pluginJson = ConvertTo-Json $pluginsOut
-
-# Save repo to file
-Set-Content -Path "repo.json" -Value $pluginJson
+# Convert plugins to JSON and Save repo to file
+$pluginsOut | ConvertTo-Json | Out-File "repo.json"
 
 # Function to exit with a specific code.
 function ExitWithCode($code) {
