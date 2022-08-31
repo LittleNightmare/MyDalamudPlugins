@@ -15,7 +15,7 @@
     "IsHide": "False",
     "IsTestingExclusive": "False",
     "LastUpdated": 1661974137,
-    "DownloadCount": 0,
+    "DownloadCount": 1,
     "DownloadLinkInstall": "https://github.com/LittleNightmare/UsedName/releases/download/0.7.6.2/UsedName.zip",
     "DownloadLinkTesting": "https://github.com/LittleNightmare/UsedName/releases/download/0.7.6.2/UsedName.zip",
     "DownloadLinkUpdate": "https://github.com/LittleNightmare/UsedName/releases/download/0.7.6.2/UsedName.zip"
@@ -26,7 +26,7 @@
     "Punchline": "[beta]处理国区服务器问题",
     "Description": "[beta]这是一个提供兼容性的插件\n这个插件用来解决其他插件无法正常检查服务器列表的问题\n此插件会修改一些数据，需要重启游戏恢复",
     "InternalName": "SunderingWorld",
-    "AssemblyVersion": "0.0.0.3",
+    "AssemblyVersion": "0.0.0.4",
     "DalamudApiLevel": 6,
     "RepoUrl": "https://github.com/LittleNightmare/SunderingWorld",
     "ApplicableVersion": "any",
@@ -34,10 +34,10 @@
     "Changelog": "- 0.0.0.3: 增加版本检查，防止跨大区开启时，插件仍然启动",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdated": 1661091106,
-    "DownloadCount": 28,
-    "DownloadLinkInstall": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.3/SunderingWorld.zip",
-    "DownloadLinkTesting": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.3/SunderingWorld.zip",
-    "DownloadLinkUpdate": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.3/SunderingWorld.zip"
+    "LastUpdated": 1661977481,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.4/SunderingWorld.zip",
+    "DownloadLinkTesting": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.4/SunderingWorld.zip",
+    "DownloadLinkUpdate": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.4/SunderingWorld.zip"
   }
 ]
