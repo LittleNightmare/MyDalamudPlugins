@@ -1,20 +1,43 @@
-{
-  "Author": "LittleNightmare",
-  "Name": "SunderingWorld",
-  "Punchline": "[beta]处理国区服务器问题",
-  "Description": "[beta]这是一个提供兼容性的插件\n这个插件用来解决其他插件无法正常检查服务器列表的问题\n此插件会修改一些数据，需要重启游戏恢复",
-  "InternalName": "SunderingWorld",
-  "AssemblyVersion": "0.0.0.6",
-  "DalamudApiLevel": 6,
-  "RepoUrl": "https://github.com/LittleNightmare/SunderingWorld",
-  "ApplicableVersion": "any",
-  "Tags": [],
-  "Changelog": "- 0.0.0.6: 正常更新版本号，国服还没开放跨大区orz",
-  "IsHide": "False",
-  "IsTestingExclusive": "False",
-  "LastUpdated": 1668530929,
-  "DownloadCount": 0,
-  "DownloadLinkInstall": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.6/SunderingWorld.zip",
-  "DownloadLinkTesting": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.6/SunderingWorld.zip",
-  "DownloadLinkUpdate": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.6/SunderingWorld.zip"
-}
+[
+  {
+    "Author": "LittleNightmare",
+    "Name": "SunderingWorld",
+    "Punchline": "[beta]处理国区服务器问题",
+    "Description": "[beta]这是一个提供兼容性的插件\n这个插件用来解决其他插件无法正常检查服务器列表的问题\n此插件会修改一些数据，需要重启游戏恢复",
+    "InternalName": "SunderingWorld",
+    "AssemblyVersion": "0.0.0.6",
+    "DalamudApiLevel": 6,
+    "RepoUrl": "https://github.com/LittleNightmare/SunderingWorld",
+    "ApplicableVersion": "any",
+    "Tags": [],
+    "Changelog": "- 0.0.0.6: 正常更新版本号，国服还没开放跨大区orz",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "LastUpdated": 1668530929,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.6/SunderingWorld.zip",
+    "DownloadLinkTesting": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.6/SunderingWorld.zip",
+    "DownloadLinkUpdate": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.6/SunderingWorld.zip"
+  },
+  {
+    "Author": "LittleNighmare",
+    "Name": "Used Name",
+    "Punchline": "A simple tool to record players' used names and nickname",
+    "Description": "A simple tool to record players' used names and nickname, only supports FriendList currently. Right click on the target to add/check the used names and nickname.\n",
+    "InternalName": "UsedName",
+    "AssemblyVersion": "0.7.6.8",
+    "DalamudApiLevel": 7,
+    "RepoUrl": "https://github.com/LittleNightmare/UsedName",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "social"
+    ],
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "LastUpdated": 1668532933,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/LittleNightmare/UsedName/releases/download/0.7.6.8/UsedName.zip",
+    "DownloadLinkTesting": "https://github.com/LittleNightmare/UsedName/releases/download/0.7.6.8/UsedName.zip",
+    "DownloadLinkUpdate": "https://github.com/LittleNightmare/UsedName/releases/download/0.7.6.8/UsedName.zip"
+  }
+]
