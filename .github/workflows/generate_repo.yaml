@@ -2,7 +2,7 @@ name: Generate Repo
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 8 * * *'
   workflow_dispatch:
   repository_dispatch:
     types: [new-release]
@@ -29,5 +29,5 @@ jobs:
         continue-on-error: true
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           branch: ${{ steps.extracted_branch.outputs.branch }}
