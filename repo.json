@@ -14,7 +14,7 @@
     "IsHide": "False",
     "IsTestingExclusive": "False",
     "LastUpdated": 1671688267,
-    "DownloadCount": 109,
+    "DownloadCount": 110,
     "DownloadLinkInstall": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.7/SunderingWorld.zip",
     "DownloadLinkTesting": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.7/SunderingWorld.zip",
     "DownloadLinkUpdate": "https://github.com/LittleNightmare/SunderingWorld/releases/download/v0.0.0.7/SunderingWorld.zip"
@@ -25,8 +25,8 @@
     "Punchline": "A simple tool to record players' used names and nickname",
     "Description": "A simple tool to record players' used names and nickname, only supports FriendList currently. Right click on the target to add/check the used names and nickname.\n",
     "InternalName": "UsedName",
-    "AssemblyVersion": "0.7.7.0",
-    "DalamudApiLevel": 7,
+    "AssemblyVersion": "0.7.8.0",
+    "DalamudApiLevel": 8,
     "RepoUrl": "https://github.com/LittleNightmare/UsedName",
     "ApplicableVersion": "any",
     "Tags": [
